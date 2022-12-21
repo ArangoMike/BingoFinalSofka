@@ -1,0 +1,13 @@
+
+const { Router } = require("express");
+
+const {logoutPatch} = require('../controllers/usuarios')
+
+
+const router = Router();
+
+// Ruta para login y sus validaciones.
+router.patch('/logout',logoutPatch );
+
+
+module.exports = router;

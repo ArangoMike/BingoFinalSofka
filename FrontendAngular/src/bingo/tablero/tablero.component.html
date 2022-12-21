@@ -1,0 +1,34 @@
+<div class="con">
+
+    <div class="contenedor head">
+
+        <div>
+            <h1>BALOTAS</h1>
+            <div #numBallots class="lista-balotas"></div>
+
+        </div>
+
+
+        <h3>TABLERO</h3>
+        <table class="table">
+
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">B</th>
+                    <th scope="col">I</th>
+                    <th scope="col">N</th>
+                    <th scope="col">G</th>
+                    <th scope="col">O</th>
+                </tr>
+            </thead>
+
+            <TBOdy #numlist class="listado-numeros">
+
+            </TBOdy>
+        </table>
+
+        <button (click)="validateTable()" type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+    </div>
+
+</div>
